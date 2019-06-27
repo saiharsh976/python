@@ -1,7 +1,7 @@
-n1,n2,n3=input().split()
-if n1>n2 and n1>n3:
-   print(n1)
-elif n2>n3:
-   print(n2)
+a,c,n=input().split()
+if a>c and a>n:
+   print(a)
+elif c>n:
+   print(c)
 else:
-   print(n3)
+   print(n)
